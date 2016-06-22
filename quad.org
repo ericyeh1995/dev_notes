@@ -1,0 +1,23 @@
+#-*- mode: org -*-
+
+* Goals
+Flying telepresence
+
+* Parts
+** Selection
+*** Frame
+Cat: Aerial, Sport, Sport FPV, Mini, Mini FPV
+
+| Cat       | Company | Part | ~Cost   | Comment                    |
+|-----------+---------+------+---------+----------------------------|
+| Sport FPV |         | QAV  | 115 USD | High Quality, Carbon Fiber |
+|           |         |      |         |                            |
+
+** Purchased
+*** Parts
+| Part Name | Quantity | Cost per | Total   | From |
+|-----------+----------+----------+---------+------|
+| PS3 Eye   |        2 |          | 850 TWD |      |
+|           |          |          |         |      |
+
+*** Tools

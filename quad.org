@@ -13,16 +13,21 @@ Flying telepresence
 *** Frame
 Cat: Aerial, Sport, Sport FPV, Mini, Mini FPV
 
-| Cat       | Company | Part | ~Cost   | Comment                    |
-|-----------+---------+------+---------+----------------------------|
-| Sport FPV |         | QAV  | 115 USD | High Quality, Carbon Fiber |
-|           |         |      |         |                            |
+| Cat       | Part                      | ~Cost | Comment                    | Weight |
+|-----------+---------------------------+-------+----------------------------+--------|
+| Sport FPV | QAV 500 V2                |   115 | High Quality, Carbon Fiber | 543g   |
+| Sport FPV | TBS Discovery             |    75 | ?                          |        |
+| Sport FPV | SECONDS ALIEN 5" FPV FRAM |   109 | #1 on Drone Insider        |        |
+| Sport FPV | QAV-R Racing Quad         |   115 | #2 on Drone Insider        |        |
+| Mini FPV  | QAV250                    |    90 |                            | 170g   |
+| Mini FPV  | Blackout Mini H           |   150 |                            |        |
+|           |                           |       |                            |        |
 
 ** Purchased
 *** Parts
-| Part Name | Quantity | Cost per | Total   | From |
-|-----------+----------+----------+---------+------|
-| PS3 Eye   |        2 |          | 850 TWD |      |
-|           |          |          |         |      |
+| Part Name | Quantity | Cost per | Total | From |
+|-----------+----------+----------+-------+------|
+| PS3 Eye   |        2 |          |    29 |      |
+|           |          |          |       |      |
 
 *** Tools

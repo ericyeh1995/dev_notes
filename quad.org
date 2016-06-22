@@ -3,6 +3,11 @@
 * Goals
 Flying telepresence
 
+* Progress
+** Get a flying quad
+** Live VR with eye and phone
+   SCHEDULED: <2016-06-29 Wed>
+
 * Parts
 ** Selection
 *** Frame

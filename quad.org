@@ -1,29 +1,59 @@
-#-*- mode: org -*-
+p#-*- mode: org -*-
 
 * Goals
 Flying telepresence
+** Dev Goals
+Fast iteration, cheap
 
 * Progress
 ** Get a flying quad
+   SCHEDULED: <2016-06-25 Sat>
+   1) Select frame
+   2) Select motor and other control stuff
+   3) Buy
+   4) Assemble
+   5) Setup & fly
 ** Live VR with eye and phone
    SCHEDULED: <2016-06-29 Wed>
 
 * Parts
+
 ** Selection
+*** Venders
+http://www.emaxmodel.com/
+
 *** Frame
 Cat: Aerial, Sport, Sport FPV, Mini, Mini FPV
+Spec: 
+   have legs, fit 6" prop, high quality, cheap, have spare parts
+   Small for flying in room, ~30cm by ~30cm
 
-| Cat       | Part                      | ~Cost | Comment                    | Weight |
-|-----------+---------------------------+-------+----------------------------+--------|
-| Sport FPV | QAV 500 V2                |   115 | High Quality, Carbon Fiber | 543g   |
-| Sport FPV | TBS Discovery             |    75 | ?                          |        |
-| Sport FPV | SECONDS ALIEN 5" FPV FRAM |   109 | #1 on Drone Insider        |        |
-| Sport FPV | QAV-R Racing Quad         |   115 | #2 on Drone Insider        |        |
-| Mini FPV  | QAV250                    |    90 |                            | 170g   |
-| Mini FPV  | Blackout Mini H           |   150 |                            |        |
-|           |                           |       |                            |        |
 
-** Purchased
+
+| Cat        | Part                 | ~Cost | Comment                    | Weight | Vender | F |
+|------------+----------------------+-------+----------------------------+--------+--------+---|
+|            | <20>                 |       |                            |        |        |   |
+|            | Q450 Ghost Edition LED |    17 | Have LED, "ok" frame       | 280g   | HK     |   |
+| Racing FPV | RoboCat 270mm [HK]   |    30 | Doesn't fit camera         | 190g   | HK     |   |
+| Racing FPV | H-King Pocket Foldable P. |    37 | Not suited for 6" prop     | 170g   | HK     |   |
+|            | DART 250             |    40 |                            |        |        | F |
+| Sport FPV  | TBS Discovery        |    75 | ?                          |        |        |   |
+| Racing FPV | Quanum Outlaw 270 Racer |    80 | Carbon Fiber               | 255g   | HK     |   |
+|            | Lumenier QAV250      |    89 | Video looks fast!          | 170g   |        |   |
+| Mini FPV   | QAV250               |    90 |                            | 170g   |        | F |
+| Sport FPV  | SECONDS ALIEN 5" FPV FRAM |   109 | #1 on Drone Insider        |        |        |   |
+| Sport FPV  | QAV 500 V2           |   115 | High Quality, Carbon Fiber | 543g   |        |   |
+| Sport FPV  | QAV-R Racing Quad    |   115 | #2 on Drone Insider        |        |        |   |
+| Mini FPV   | Blackout Mini H      |   150 |                            |        |        |   |
+
+
+
+
+*** Motor and ESC
+https://www.youtube.com/watch?v=9JiiZs-wdo4
+
+
+** Purchasde
 *** Parts
 | Part Name | Quantity | Cost per | Total | From |
 |-----------+----------+----------+-------+------|

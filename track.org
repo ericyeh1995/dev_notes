@@ -1,0 +1,43 @@
+#-*- mode: org -*-
+
+* Goals overview
+  1. Website on my vps
+  2. Flying telepresence
+  3. Session II of Online class??
+
+* Tasks
+
+* General
+** DONE Learn emacs basic
+** DONE Setup Scheme on emacs
+** TODO [#A] Setup Python on emacs
+** TODO Finish lpthw
+
+* Website
+*** DONE Get vps
+** TODO [#A] Setup vps, ready for hosting website
+
+* Quad
+** TODO [#A] Get parts for quad
+*** TODO Frame
+*** TODO Motors, ESC
+*** TODO Controllers
+*** TODO Screws, zipties...
+** TODO Setup VR
+** TODO Assemble
+
+* Read
+** TODO Finish little schemer
+
+** TODO Finish GEB
+*** DONE Chapter I to X
+*** WIP: Chapter XI
+*** TODO Chapter XI to XX
+
+
+
+* Links
+file:~/Documents/Development/dev_notes/quad.org
+
+
+

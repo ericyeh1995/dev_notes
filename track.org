@@ -5,21 +5,28 @@
   2. Flying telepresence
   3. Session II of Online class??
 
-* Tasks
+* SMART goals
+** Website
+   Q: Who are the audiences?
+   A: Future me, future recuriters
+ 
 
 * General
 ** DONE Learn emacs basic
 ** DONE Setup Scheme on emacs
 ** TODO [#A] Setup Python on emacs
-** TODO Finish lpthw
+** TODO [#B] Finish lpthw
 
 * Website
-*** DONE Get vps
-** TODO [#A] Setup vps, ready for hosting website
+** DONE Get vps
+** TODO [#A] Setup vps users
+** TODO Setup ready for hosting website
+** TODO Design layouts
 
 * Quad
-** TODO [#A] Get parts for quad
-*** TODO Frame
+file:~/Documents/Development/dev_notes/quad.org
+** TODO [#A] Select parts for quad
+*** DONE Frame
 *** TODO Motors, ESC
 *** TODO Controllers
 *** TODO Screws, zipties...
@@ -28,16 +35,12 @@
 
 * Read
 ** TODO Finish little schemer
-
 ** TODO Finish GEB
 *** DONE Chapter I to X
 *** WIP: Chapter XI
 *** TODO Chapter XI to XX
 
 
-
-* Links
-file:~/Documents/Development/dev_notes/quad.org
 
 
 

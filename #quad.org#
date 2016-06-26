@@ -1,0 +1,37 @@
+#-*- mode: org -*-
+
+* Goals
+Flying telepresence
+
+* Progress
+** Get a flying quad
+   1) Select a frame
+   2) Select other parts
+   3) Buy
+** Live VR with eye and phone
+   SCHEDULED: <2016-06-29 Wed>
+
+* Parts
+** Selection
+*** Frame
+Cat: Aerial, Sport, Sport FPV, Mini, Mini FPV
+
+| Cat        | Part                      | ~Cost | Comment                    | Weight | Vender |
+|------------+---------------------------+-------+----------------------------+--------+--------|
+| Sport FPV  | QAV 500 V2                |   115 | High Quality, Carbon Fiber | 543g   |        |
+| Sport FPV  | TBS Discovery             |    75 | ?                          |        |        |
+| Sport FPV  | SECONDS ALIEN 5" FPV FRAM |   109 | #1 on Drone Insider        |        |        |
+| Sport FPV  | QAV-R Racing Quad         |   115 | #2 on Drone Insider        |        |        |
+| Mini FPV   | QAV250                    |    90 |                            | 170g   |        |
+| Mini FPV   | Blackout Mini H           |   150 |                            |        |        |
+| Racing FPV | H-King Pocket             |    37 | Not suited for 6" prop     | 170g   | HK     |
+|            |                           |       |                            |        |        |
+
+** Purchasde
+*** Parts
+| Part Name | Quantity | Cost per | Total | From |
+|-----------+----------+----------+-------+------|
+| PS3 Eye   |        2 |          |    29 |      |
+|           |          |          |       |      |
+
+*** Tools

@@ -14,20 +14,28 @@
 * General
 ** DONE Learn emacs basic
 ** DONE Setup Scheme on emacs
-** TODO [#A] Setup Python on emacs
+** DONE Setup Python (elpy) on emacs
+** TODO Setup emacs to be Python IDE
 ** TODO [#B] Finish lpthw
-
+   DEADLINE: <2016-06-30 Thu>
+** TODO Finish numpy 100
 * Website
 ** DONE Get vps
-** TODO [#A] Setup vps users
-** TODO Setup ready for hosting website
+** DONE [#A] Setup vps users
+   DEADLINE: <2016-06-28 Tue>
+** TODO Setup ready for simple website
+   DEADLINE: <2016-06-28 Tue>
+*** TODO Install LAMP
+** TODO Setup ready for backendp
 ** TODO Design layouts
+** TODO Work on The Django Book
 
 * Quad
 file:~/Documents/Development/dev_notes/quad.org
 ** TODO [#A] Select parts for quad
 *** DONE Frame
 *** TODO Motors, ESC
+    DEADLINE: <2016-06-29 Wed>
 *** TODO Controllers
 *** TODO Screws, zipties...
 ** TODO Setup VR

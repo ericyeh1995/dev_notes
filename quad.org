@@ -63,9 +63,18 @@ https://www.youtube.com/watch?v=9JiiZs-wdo4
 |-----------------+----------+-----+-----------+------------+-----------|
 | <15>            |          |     |           |            |           |
 | Multistar Elite |    51.10 | 2-4 | 2200-2300 | 1484@3S    |        24 |
+
 **** TODO Prop
      - 5x3
 **** TODO Battery
+**** TODO Others
+     - zipties
+     - heat shrink
+     - solder
+     - connectors:
+     - wires
+     - mo props
+
 *** Flight Controller
 **** Main Processor
 **** Sensors

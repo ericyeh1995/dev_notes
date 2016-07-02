@@ -49,9 +49,8 @@ Spec:
 | Sport FPV  |   | QAV-R Racing Quad    |   115 | #2 on Drone Insider        |        |        |
 | Mini FPV   |   | Blackout Mini H      |   150 |                            |        |        |
 
-*** TODO Propulsion: Motor, ESC, Prop, Bat
+*** DONE Propulsion: Motor, ESC, Prop, Bat
 https://www.youtube.com/watch?v=9JiiZs-wdo4
-
 **** DONE ESC
 | ESC             | Current(amp |  #S | Firmware | Weight(g) |
 |-----------------+-------------+-----+----------+-----------|
@@ -64,20 +63,41 @@ https://www.youtube.com/watch?v=9JiiZs-wdo4
 | <15>            |          |     |           |            |           |
 | Multistar Elite |    51.10 | 2-4 | 2200-2300 | 1484@3S    |        24 |
 
-**** TODO Prop
+**** DONE Prop
      - 5x3
-**** TODO Battery
-**** TODO Others
-     - zipties
-     - heat shrink
-     - solder
-     - connectors:
-     - wires
-     - mo props
+**** DONE Battery
+Weight: <110g for 1000mAh, <150g for 1300mAh
 
-*** Flight Controller
-**** Main Processor
-**** Sensors
+| Brand   | Cap(mAh) | V  | Dis | Weight(g) | Cost | Note          |
+|---------+----------+----+-----+-----------+------+---------------|
+| Turnigy |     1000 | 3S | 25C |        86 | 6.36 | JST, OUT      |
+| Turnigy |     1000 | 3S | 20C |        87 | 5.57 | JST connector |
+| Zippy   |     1000 | 3S | 25C |        91 | 4.83 | JST-XH, XT60  |
+| Turnigy |     1250 | 3S | 30C |        99 | 8.55 | Long          |
+| Zippy   |     1300 | 3S | 20C |       110 | 8.11 | OUT           |
+| Turnigy |     1300 | 3S | 20C |       111 | 7.31 | OUT           |
+| Turnigy |     1300 | 3S | 25C |       111 | 8.26 | OUT           |
+
+*** TODO Flight Controller
+**** DONE Main Processor
+**** TODO Sensors
+**** TODO Base station
+*** TODO Charger stuff
+**** DONE Battery charger
+http://goods.ruten.com.tw/item/show?21404251338913
+http://goods.ruten.com.tw/item/show?21449907628619
+**** TODO Charger distribution
+**** TODO Charger Power Supply
+*** TODO Others
+    - zipties
+    - heat shrink
+    - solder
+    - connectors:
+    - wires
+    - mo props
+    - net?
+    - electrical tapes
+    - loctite
 *** Video
 ** Final build (draft)
 

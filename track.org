@@ -19,16 +19,19 @@
 ** TODO [#B] Finish lpthw
    DEADLINE: <2016-06-30 Thu>
 ** TODO Finish numpy 100
+
 * Website
 ** DONE Get vps
 ** DONE [#A] Setup vps users
    DEADLINE: <2016-06-28 Tue>
+** DONE Install LAMP
+** TODO Install and learn Django
+*** https://goodcode.io/articles/django-staticsite/
+*** https://docs.djangoproject.com/en/1.9/intro/tutorial01/
 ** TODO Setup ready for simple website
    DEADLINE: <2016-06-28 Tue>
-*** TODO Install LAMP
-** TODO Setup ready for backendp
 ** TODO Design layouts
-** TODO Work on The Django Book
+
 
 * Quad
 file:~/Documents/Development/dev_notes/quad.org

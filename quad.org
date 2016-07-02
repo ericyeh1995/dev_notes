@@ -2,8 +2,16 @@
 
 * Goals
   Flying telepresence
+  Flying FPV
+
 ** Dev Goals
-Fast iteration, cheap
+Fast iteration
+Cheap
+Small
+** References
+Dart250 with gimbal: https://oscarliang.com/mini-quad-camera-gimbal-feiyu-mini3d/
+In depth tutorial: http://www.robotshop.com/blog/en/make-uav-lesson-1-platform-rtf-arf-kit-custom-13989
+
 
 * Progress
 ** Get a flying quad
@@ -15,7 +23,6 @@ Fast iteration, cheap
    5) Setup & fly
 ** Live VR with eye and phone
    SCHEDULED: <2016-06-29 Wed>
-
 * Parts
 
 ** Selection
@@ -27,8 +34,6 @@ Cat: Aerial, Sport, Sport FPV, Mini, Mini FPV
 Spec: 
    have legs, fit 6" prop, high quality, cheap, have spare parts
    Small for flying in room, ~30cm by ~30cm
-
-   
 
 | Cat        | F | Part                 | ~Cost | Comment                    | Weight | Vender |
 |------------+---+----------------------+-------+----------------------------+--------+--------|
@@ -46,16 +51,27 @@ Spec:
 | Sport FPV  |   | QAV-R Racing Quad    |   115 | #2 on Drone Insider        |        |        |
 | Mini FPV   |   | Blackout Mini H      |   150 |                            |        |        |
 
-| a | b | e | c | d |
-|---+---+---+---+---|
-| 1 | 2 | 5 | 3 | 4 |
-
-
 *** Motor and ESC
 https://www.youtube.com/watch?v=9JiiZs-wdo4
 
+*** Video
 
-** Purchasde
+
+** Final build (draft)
+
+| Part               | Weight(g) |
+|--------------------+-----------|
+| Dart 250           |       135 |
+| PS3 Eye w/out wire |       100 |
+| Gimbal             |        72 |
+| Motors x4          |           |
+| Esc x4             |           |
+| GPS                |           |
+| Battery            |           |
+| Controller         |           |
+| Total              |           |
+
+** Purchased
 *** Parts
 | Part Name | Quantity | Cost per | Total | From |
 |-----------+----------+----------+-------+------|
@@ -63,3 +79,6 @@ https://www.youtube.com/watch?v=9JiiZs-wdo4
 |           |          |          |       |      |
 
 *** Tools
+
+
+

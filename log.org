@@ -23,7 +23,8 @@ M-w       copy text
 ** DONE run 5k
 
 * <2016-07-01 Fri>
-** TODO Completing: Setup website ready for simple html/wordpress
+** DONE Family dinner
+** TODO Completing: Setup website ready
 ** TODO WIP: select a motor and controller
 ** TODO Completing: lpthw at least till ex15
 

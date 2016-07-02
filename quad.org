@@ -2,7 +2,7 @@
 
 * Goals
   Flying telepresence
-  Flying FPV
+  Flying FVP
 
 ** Dev Goals
 Fast iteration
@@ -11,7 +11,6 @@ Small
 ** References
 Dart250 with gimbal: https://oscarliang.com/mini-quad-camera-gimbal-feiyu-mini3d/
 In depth tutorial: http://www.robotshop.com/blog/en/make-uav-lesson-1-platform-rtf-arf-kit-custom-13989
-
 
 * Progress
 ** Get a flying quad
@@ -24,12 +23,11 @@ In depth tutorial: http://www.robotshop.com/blog/en/make-uav-lesson-1-platform-r
 ** Live VR with eye and phone
    SCHEDULED: <2016-06-29 Wed>
 * Parts
-
 ** Selection
 *** Venders
 http://www.emaxmodel.com/
 
-*** Frame
+*** DONE Frame
 Cat: Aerial, Sport, Sport FPV, Mini, Mini FPV
 Spec: 
    have legs, fit 6" prop, high quality, cheap, have spare parts
@@ -51,24 +49,39 @@ Spec:
 | Sport FPV  |   | QAV-R Racing Quad    |   115 | #2 on Drone Insider        |        |        |
 | Mini FPV   |   | Blackout Mini H      |   150 |                            |        |        |
 
-*** Motor and ESC
+*** TODO Propulsion: Motor, ESC, Prop, Bat
 https://www.youtube.com/watch?v=9JiiZs-wdo4
 
+**** DONE ESC
+| ESC             | Current(amp |  #S | Firmware | Weight(g) |
+|-----------------+-------------+-----+----------+-----------|
+| Afro Race Spec Mini |          20 | 2-4 | SimonK   |      11.3 |
+| <15>            |             |     |          |           |
+
+**** DONE Motor
+| Motor           | Cost(x4) |  #S |        kV | Thrust(x4) | Weight(g) |
+|-----------------+----------+-----+-----------+------------+-----------|
+| <15>            |          |     |           |            |           |
+| Multistar Elite |    51.10 | 2-4 | 2200-2300 | 1484@3S    |        24 |
+**** TODO Prop
+     - 5x3
+**** TODO Battery
+*** Flight Controller
+**** Main Processor
+**** Sensors
 *** Video
-
-
 ** Final build (draft)
 
 | Part               | Weight(g) |
 |--------------------+-----------|
 | Dart 250           |       135 |
-| PS3 Eye w/out wire |       100 |
-| Gimbal             |        72 |
-| Motors x4          |           |
-| Esc x4             |           |
+| Motors x4          |        96 |
+| Afro Mini 20amp x4 |     45.12 |
 | GPS                |           |
 | Battery            |           |
 | Controller         |           |
+| PS3 Eye w/out wire |       100 |
+| Gimbal             |        72 |
 | Total              |           |
 
 ** Purchased
@@ -79,6 +92,6 @@ https://www.youtube.com/watch?v=9JiiZs-wdo4
 |           |          |          |       |      |
 
 *** Tools
-
+    
 
 

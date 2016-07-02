@@ -11,24 +11,23 @@ M-w       copy text
 ** TODO Completing: Setup website ready for simple html
 ** TODO WIP: select a motor and controller
 ** TODO Completing: lpthw at least till ex15
- 
 * <2016-06-29 Wed>
 ** DONE Install LAMP
 ** TODO Completing: Setup website ready for simple html
 ** TODO WIP: select a motor and controller
 ** TODO Completing: lpthw at least till ex15
 ** DONE learn htg: http://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/
-
 * <2016-06-30 Thu>
 ** DONE run 5k
-
 * <2016-07-01 Fri>
 ** DONE Family dinner
 ** TODO Completing: Setup website ready
 ** TODO WIP: select a motor and controller
 ** TODO Completing: lpthw at least till ex15
-
 * <2016-07-02 Sat>
-
+** TODO [quad] select pulsion
+** TODO [web] first django page
+* Shelf
+** 
 
 

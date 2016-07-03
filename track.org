@@ -32,15 +32,14 @@
    DEADLINE: <2016-06-28 Tue>
 ** TODO Design layouts
 
-
 * Quad
 file:~/Documents/Development/dev_notes/quad.org
 ** TODO [#A] Select parts for quad
 *** DONE Frame
-*** TODO Motors, ESC
+*** DONE Motors, ESC
     DEADLINE: <2016-06-29 Wed>
 *** TODO Controllers
-*** TODO Screws, zipties...
+*** TODO Screws, zipties
 ** TODO Setup VR
 ** TODO Assemble
 

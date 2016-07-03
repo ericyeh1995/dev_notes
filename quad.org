@@ -81,13 +81,14 @@ Weight: <110g for 1000mAh, <150g for 1300mAh
 *** TODO Flight Controller
 **** DONE Main Processor
 **** TODO Sensors
-**** TODO Base station
+**** TODO Radio system
 *** TODO Charger stuff
 **** DONE Battery charger
 http://goods.ruten.com.tw/item/show?21404251338913
 http://goods.ruten.com.tw/item/show?21449907628619
-**** TODO Charger distribution
-**** TODO Charger Power Supply
+**** DONE Charger Power Supply
+**** DONE Charger distribution
+*** TODO FPV system
 *** TODO Others
     - zipties
     - heat shrink
@@ -98,7 +99,7 @@ http://goods.ruten.com.tw/item/show?21449907628619
     - net?
     - electrical tapes
     - loctite
-*** Video
+    - double sided tape
 ** Final build (draft)
 
 | Part               | Weight(g) |
@@ -115,10 +116,13 @@ http://goods.ruten.com.tw/item/show?21449907628619
 
 ** Purchased
 *** Parts
-| Part Name | Quantity | Cost per | Total | From |
-|-----------+----------+----------+-------+------|
-| PS3 Eye   |        2 |          |    29 |      |
-|           |          |          |       |      |
+| Part Name             | Quantity | Cost per |  Total | From           | Status  |
+|-----------------------+----------+----------+--------+----------------+---------|
+| PS3 Eye               |        2 |          | 24.197 |                | Arrived |
+| iMAX B6 80w           |        1 |   24.817 | 24.817 | a6880(shoppee)  | Paid    |
+| Parallel charg. XT-60 |        1 |        0 |      0 | a6880(shoppee) |         |
+| 15V 90W AC Adapter    |        1 |        0 |      0 | a6880(shoppee) |         |
+| CC3D                  |        1 |    9.927 |  9.927 |                |         |
 
 *** Tools
     

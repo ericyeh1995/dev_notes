@@ -3,15 +3,22 @@
 * Goals
   Flying telepresence
   Flying FVP
-
 ** Dev Goals
 Fast iteration
 Cheap
 Small
 ** References
 Dart250 with gimbal: https://oscarliang.com/mini-quad-camera-gimbal-feiyu-mini3d/
-In depth tutorial: http://www.robotshop.com/blog/en/make-uav-lesson-1-platform-rtf-arf-kit-custom-13989
-
+General, in depth tutorial: http://www.robotshop.com/blog/en/make-uav-lesson-1-platform-rtf-arf-kit-custom-13989
+** Ideas
+   - head tracking with gimbal
+   - head tracking with quad yaw
+   - head tracking with quad yaw & 1 axis servo
+   - zoom in and out
+   - take photos
+   - body tracking: accelerate, jump...
+   - end goal: body sync with pitch, roll, elevation; head sync with yaw and gimbal angle
+   - 
 * Progress
 ** Get a flying quad
    SCHEDULED: <2016-06-25 Sat>
@@ -81,8 +88,8 @@ Weight: <110g for 1000mAh, <150g for 1300mAh
 *** TODO Flight Controller
 **** DONE Main Processor
 **** TODO Sensors
-**** TODO Radio system
-*** TODO Charger stuff
+**** DONE Radio system
+*** DONE Charger stuff
 **** DONE Battery charger
 http://goods.ruten.com.tw/item/show?21404251338913
 http://goods.ruten.com.tw/item/show?21449907628619
@@ -116,13 +123,13 @@ http://goods.ruten.com.tw/item/show?21449907628619
 
 ** Purchased
 *** Parts
-| Part Name             | Quantity | Cost per |  Total | From           | Status  |
-|-----------------------+----------+----------+--------+----------------+---------|
-| PS3 Eye               |        2 |          | 24.197 |                | Arrived |
-| iMAX B6 80w           |        1 |   24.817 | 24.817 | a6880(shoppee)  | Paid    |
-| Parallel charg. XT-60 |        1 |        0 |      0 | a6880(shoppee) |         |
-| 15V 90W AC Adapter    |        1 |        0 |      0 | a6880(shoppee) |         |
-| CC3D                  |        1 |    9.927 |  9.927 |                |         |
+| Part Name             | Quantity | Cost per |  Total | TWD | From           | Status  |
+|-----------------------+----------+----------+--------+-----+----------------+---------|
+| PS3 Eye               |        2 |          | 24.197 | 780 |                | Arrived |
+| iMAX B6 80w           |        1 |   24.817 | 24.817 | 800 | a6880(shoppee) | Paid    |
+| Parallel charg. XT-60 |        1 |        0 |      0 |     | a6880(shoppee) |         |
+| 15V 90W AC Adapter    |        1 |        0 |      0 |     | a6880(shoppee) |         |
+| CC3D                  |        1 |    9.927 |  9.927 | 320 |                |         |
 
 *** Tools
     

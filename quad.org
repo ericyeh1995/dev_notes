@@ -1,8 +1,8 @@
 #-*- mode: org -*-
 
 * Goals
-  Flying telepresence
-  Flying FVP
+  Have a flying barebone quad (BBquad)
+  Flying telepresence, Flying FVP (TEquad)
 ** Dev Goals
 Fast iteration
 Cheap
@@ -30,7 +30,7 @@ General, in depth tutorial: http://www.robotshop.com/blog/en/make-uav-lesson-1-p
 ** Live VR with eye and phone
    SCHEDULED: <2016-06-29 Wed>
 * Parts
-** Selection
+** Selection for BBquad
 *** Venders
 http://www.emaxmodel.com/
 
@@ -40,21 +40,26 @@ Spec:
    have legs, fit 6" prop, high quality, cheap, have spare parts
    Small for flying in room, ~30cm by ~30cm
 
-| Cat        | F | Part                 | ~Cost | Comment                    | Weight | Vender |
-|------------+---+----------------------+-------+----------------------------+--------+--------|
-|            |   | <20>                 |       |                            |        |        |
-|            |   | Q450 Ghost Edition LED |    17 | Have LED, "ok" frame       | 280g   | HK     |
-| Racing FPV |   | RoboCat 270mm [HK]   |    30 | Doesn't fit camera         | 190g   | HK     |
-| Racing FPV |   | H-King Pocket Foldable P. |    37 | Not suited for 6" prop     | 170g   | HK     |
-|            | F | DART 250             |    40 |                            |        |        |
-| Sport FPV  |   | TBS Discovery        |    75 | ?                          |        |        |
-| Racing FPV |   | Quanum Outlaw 270 Racer |    80 | Carbon Fiber               | 255g   | HK     |
-|            |   | Lumenier QAV250      |    89 | Video looks fast!          | 170g   |        |
-| Mini FPV   | F | QAV250               |    90 |                            | 170g   |        |
-| Sport FPV  |   | SECONDS ALIEN 5" FPV FRAM |   109 | #1 on Drone Insider        |        |        |
-| Sport FPV  |   | QAV 500 V2           |   115 | High Quality, Carbon Fiber | 543g   |        |
-| Sport FPV  |   | QAV-R Racing Quad    |   115 | #2 on Drone Insider        |        |        |
-| Mini FPV   |   | Blackout Mini H      |   150 |                            |        |        |
+| cat        | F | Part                 | ~Cost | Comment                    | Comment 2  | Weight | Vender |
+|------------+---+----------------------+-------+----------------------------+------------+--------+--------|
+|            |   | <20>                 |       |                            |            |        |        |
+|            |   | Q450 Ghost Edition LED |    17 | Have LED, "ok" frame       |            | 280g   | HK     |
+| Racing FPV |   | RoboCat 270mm [HK]   |    30 | Doesn't fit camera         |            | 190g   | HK     |
+| Racing FPV |   | H-King Pocket Foldable P. |    37 | Not suited for 6" prop     |            | 170g   | HK     |
+|            | F | DART 250             |    40 |                            |            | 135g   | HK     |
+|            | F | ZMR 250 w/ PDB       |    59 | Carbon Fiber               | Still weak | 185g   |        |
+|            |   | Nighthawk 250 Pro V2 |    70 | Carbon Fiber               |            | 129g   | emax   |
+| Sport FPV  |   | TBS Discovery        |    75 | ?                          |            |        |        |
+| Racing FPV |   | Quanum Outlaw 270 Racer |    80 | Carbon Fiber               |            | 255g   | HK     |
+|            |   | Mini Mamba V2        |    88 | 250mm, 5"prop, free Octo   | Durable    | 180g   |        |
+| Mini FPV   |   | Lumenier QAV250      |    89 | Video looks fast!          | Durable    | 170g   |        |
+|            |   | Xhover               |   106 |                            |            |        |        |
+| Sport FPV  |   | SECONDS ALIEN 5" FPV FRAM |   109 | #1 on Drone Insider        |            |        |        |
+| Sport FPV  |   | QAV 500 V2           |   115 | High Quality, Carbon Fiber |            | 543g   |        |
+| Sport FPV  |   | QAV-R Racing Quad    |   115 | #2 on Drone Insider        |            |        |        |
+|            |   | MXP230               |   120 | G10                        | Durable    |        |        |
+| Mini FPV   |   | Blackout Mini H V2   |   150 | Carbon Fiber, 5" prop      | Durable    | 123g   |        |
+
 
 *** DONE Propulsion: Motor, ESC, Prop, Bat
 https://www.youtube.com/watch?v=9JiiZs-wdo4
@@ -92,13 +97,9 @@ Weight: <110g for 1000mAh, <150g for 1300mAh
 | CC3D   | OpenPilot GCS | MPU6000            |       | JST        |
 | Naze32 | Baseflight    | MPU6050 (acc/gyro) |       | lead pins  |
 |        | Cleanflight   |                    |       |            |
-
-
-**** TODO Sensors
-**** TODO Radio system
+**** DONE Radio system
 Want: Mode _?_
 Spektrum vs FrSky: https://drive.google.com/file/d/0BxMefwBHjNs6TW9TS0VSeWhDRUE/view?pli=1
-
 
 | Part                    |   Cost | Spec  | Disp? | Comment      |
 |-------------------------+--------+-------+-------+--------------|
@@ -106,27 +107,36 @@ Spektrum vs FrSky: https://drive.google.com/file/d/0BxMefwBHjNs6TW9TS0VSeWhDRUE/
 | Turnigy 9X              |  59.99 | 9Ch   | y     | Anurag's 1st |
 | Spektrum DX6i           | 129.99 | 6Ch   | y     | Anurag's 2nd |
 |                         |        |       |       |              |
-
+**** TODO Sensors
 *** DONE Charger stuff
 **** DONE Battery charger
 http://goods.ruten.com.tw/item/show?21404251338913
 http://goods.ruten.com.tw/item/show?21449907628619
 **** DONE Charger Power Supply
 **** DONE Charger distribution
-*** TODO FPV system
-*** TODO Others
-    - zipties
-    - heat shrink
-    - solder
-    - connectors:
-    - wires
-    - mo props
-    - net?
-    - electrical tapes
-    - loctite
-    - double sided tape
-** Final build (draft)
+*** TODO Checkings
+**** Connections in quad
+    - [ ] Battery to distribution board
+    - [ ] Controller power
+    - [ ] Controller to receivers
+    - [ ] Controller to ESCs
+    - [ ] ESCs power
+    - [ ] ESCs to motors
+    - [ ] Props on motors
+    - [ ] On board LEDs power
+    - [X] ESC on frame
+    - [ ] Motor on frame
 
+**** Connections on ground station
+    - [ ] Controller to battery
+    - [ ] Controller charger
+    - [ ] Quad batteries charger
+    - [ ] Comp to controller?
+    - [ ] Comp to controller flash
+    - [ ] Comp to RC controller
+    - [ ] ESC program?
+
+*** Draft built for BBquad
 | Part               | Weight(g) |
 |--------------------+-----------|
 | Dart 250           |       135 |
@@ -138,16 +148,44 @@ http://goods.ruten.com.tw/item/show?21449907628619
 | PS3 Eye w/out wire |       100 |
 | Gimbal             |        72 |
 | Total              |           |
+** TODO Related parts/tools
+PI: personal inventory
+*** Parts
+   - [X] zipties
+   - [ ] heat shrink
+   - [ ] connectors
+   - [ ] wires
+   - [X] mo props
+   - [ ] loctite
+   - [X] double sided tape
+*** Tools
+   - [ ] net?
+   - [X] UART
+   - [X] Solder iron
+   - [X] Solder
+   - [X] Solder flux
+   - [X] Hot glue gun/glue stick
+   - [X] Jumper pin/cables, male/female
+   - [X] Meter
+   - [X] Scope (5v)
+   - [X] Stripping tool
+   - [X] electrical tapes
+   - [ ] hex tools
 
+** Selection for TEquad
 ** Purchased
 *** Parts
-| Part Name             | Quantity | Cost per |  Total | TWD | From           | Status  |
-|-----------------------+----------+----------+--------+-----+----------------+---------|
-| PS3 Eye               |        2 |          | 24.197 | 780 |                | Arrived |
-| iMAX B6 80w           |        1 |   24.817 | 24.817 | 800 | a6880(shoppee) | Paid    |
-| Parallel charg. XT-60 |        1 |        0 |      0 |     | a6880(shoppee) |         |
-| 15V 90W AC Adapter    |        1 |        0 |      0 |     | a6880(shoppee) |         |
-| CC3D                  |        1 |    9.927 |  9.927 | 320 |                |         |
+| Part Name             | Quantity | Cost per |  Total |  TWD | Status       | From                 |
+|-----------------------+----------+----------+--------+------+--------------+----------------------|
+| PS3 Eye               |        2 |          | 24.197 |  780 | Arrived      | ruten: daniel731112  |
+| iMAX B6 80w charger   |        1 |   24.817 | 24.817 |  800 | Paid/Shipped | shoppee: a6880       |
+| Parallel charg. XT-60 |        1 |        0 |      0 |      |              | shoppee: a6880       |
+| 15V 90W AC Adapter    |        1 |        0 |      0 |      |              | shoppee: a6880       |
+| CC3D                  |        1 |    9.927 |  9.927 |  320 | Requested    | ruten: copy888       |
+| Hubsan X4 w/ 4 Bat    |        1 |          |        | 1560 | Shipped      | ruten: yichin5201314 |
+| Hubsan Prop           |   1 (x4) |          |        |   42 | Shipped      | ruten: ken0422       |
+|                       |          |          |        |      |              |                      |
+
 
 *** Tools
     

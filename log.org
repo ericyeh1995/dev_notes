@@ -30,8 +30,15 @@ motor, esc, battery, controller, battery charger
 ** DONE [quad] Brought Hudson drone for practice
 ** TODO [web] first django page
 * <2016-07-03 Sun>
+** DONE Hike with Jumper
+** DONE [quad] Look into RC controller
 * <2016-07-04 Mon>
+** DONE [quad] Look into RC controller
+** TODO [quad] Finalize frame
 * <2016-07-05 Tue>
+** TODO [quad] Purchase parts for BBquad
+** TODO [web] first django page
+
 * <2016-07-06 Wed>
 
 * Shelf

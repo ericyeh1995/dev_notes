@@ -87,8 +87,26 @@ Weight: <110g for 1000mAh, <150g for 1300mAh
 
 *** TODO Flight Controller
 **** DONE Main Processor
+| Part   | Firmware      | Sensor             | Price | Connection |
+|--------+---------------+--------------------+-------+------------|
+| CC3D   | OpenPilot GCS | MPU6000            |       | JST        |
+| Naze32 | Baseflight    | MPU6050 (acc/gyro) |       | lead pins  |
+|        | Cleanflight   |                    |       |            |
+
+
 **** TODO Sensors
-**** DONE Radio system
+**** TODO Radio system
+Want: Mode _?_
+Spektrum vs FrSky: https://drive.google.com/file/d/0BxMefwBHjNs6TW9TS0VSeWhDRUE/view?pli=1
+
+
+| Part                    |   Cost | Spec  | Disp? | Comment      |
+|-------------------------+--------+-------+-------+--------------|
+| FrySky Tarnais X9D plus | 209.99 | 16+Ch | y     |              |
+| Turnigy 9X              |  59.99 | 9Ch   | y     | Anurag's 1st |
+| Spektrum DX6i           | 129.99 | 6Ch   | y     | Anurag's 2nd |
+|                         |        |       |       |              |
+
 *** DONE Charger stuff
 **** DONE Battery charger
 http://goods.ruten.com.tw/item/show?21404251338913

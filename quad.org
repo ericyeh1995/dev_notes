@@ -59,7 +59,7 @@ Spec:
 | Sport FPV  |   | QAV-R Racing Quad    |   115 | #2 on Drone Insider        |            |        |        |
 |            |   | MXP230               |   120 | G10                        | Durable    |        |        |
 | Mini FPV   |   | Blackout Mini H V2   |   150 | Carbon Fiber, 5" prop      | Durable    | 123g   |        |
-
+|            |   | DJI F330             |       | Anurag use it              |            |        |        |
 
 *** DONE Propulsion: Motor, ESC, Prop, Bat
 https://www.youtube.com/watch?v=9JiiZs-wdo4
@@ -80,16 +80,18 @@ https://www.youtube.com/watch?v=9JiiZs-wdo4
 **** DONE Battery
 Weight: <110g for 1000mAh, <150g for 1300mAh
 
-| Brand   | Cap(mAh) | V  | Dis | Weight(g) | Cost | Note          |
-|---------+----------+----+-----+-----------+------+---------------|
-| Turnigy |     1000 | 3S | 25C |        86 | 6.36 | JST, OUT      |
-| Turnigy |     1000 | 3S | 20C |        87 | 5.57 | JST connector |
-| Zippy   |     1000 | 3S | 25C |        91 | 4.83 | JST-XH, XT60  |
-| Turnigy |     1250 | 3S | 30C |        99 | 8.55 | Long          |
-| Zippy   |     1300 | 3S | 20C |       110 | 8.11 | OUT           |
-| Turnigy |     1300 | 3S | 20C |       111 | 7.31 | OUT           |
-| Turnigy |     1300 | 3S | 25C |       111 | 8.26 | OUT           |
-
+| Brand   | Cap(mAh) | V  | Dis | Weight(g) |  Cost | Note          |
+|---------+----------+----+-----+-----------+-------+---------------|
+| Turnigy |     1000 | 3S | 25C |        86 |  6.36 | JST, OUT      |
+| Turnigy |     1000 | 3S | 20C |        87 |  5.57 | JST connector |
+| Zippy   |     1000 | 3S | 25C |        91 |  4.83 | JST-XH, XT60  |
+| Turnigy |     1250 | 3S | 30C |        99 |  8.55 | Long          |
+| Zippy   |     1300 | 3S | 20C |       110 |  8.11 | OUT           |
+| Turnigy |     1300 | 3S | 20C |       111 |  7.31 | OUT           |
+| Turnigy |     1300 | 3S | 25C |       111 |  8.26 | OUT           |
+| Turnigy |     1300 | 3S | 25C |           | 440NT | ruten         |
+| Turnigy |     1250 | 3S | 30C |           | 390NT | ruten         |
+| Zippy   |     1000 | 3S | 25C |           | 300NT | ruten         |
 *** TODO Flight Controller
 **** DONE Main Processor
 | Part   | Firmware      | Sensor             | Price | Connection |
@@ -101,12 +103,12 @@ Weight: <110g for 1000mAh, <150g for 1300mAh
 Want: Mode _?_
 Spektrum vs FrSky: https://drive.google.com/file/d/0BxMefwBHjNs6TW9TS0VSeWhDRUE/view?pli=1
 
-| Part                    |   Cost | Spec  | Disp? | Comment      |
-|-------------------------+--------+-------+-------+--------------|
-| FrySky Tarnais X9D plus | 209.99 | 16+Ch | y     |              |
-| Turnigy 9X              |  59.99 | 9Ch   | y     | Anurag's 1st |
-| Spektrum DX6i           | 129.99 | 6Ch   | y     | Anurag's 2nd |
-|                         |        |       |       |              |
+| Part                    | Software |   Cost | Spec  | Disp? | Comment      |
+|-------------------------+----------+--------+-------+-------+--------------|
+| FrySky Tarnais X9D plus | opentx   | 209.99 | 16+Ch | y     |              |
+| Turnigy 9X              |          |  59.99 | 9Ch   | y     | Anurag's 1st |
+| Spektrum DX6i           |          | 129.99 | 6Ch   | y     | Anurag's 2nd |
+|                         |          |        |       |       |              |
 **** TODO Sensors
 *** DONE Charger stuff
 **** DONE Battery charger
@@ -116,25 +118,25 @@ http://goods.ruten.com.tw/item/show?21449907628619
 **** DONE Charger distribution
 *** TODO Checkings
 **** Connections in quad
-    - [ ] Battery to distribution board
-    - [ ] Controller power
-    - [ ] Controller to receivers
-    - [ ] Controller to ESCs
-    - [ ] ESCs power
-    - [ ] ESCs to motors
-    - [ ] Props on motors
-    - [ ] On board LEDs power
-    - [X] ESC on frame
-    - [ ] Motor on frame
+    - [X] Battery to distribution board: XT60/solder
+    - [X] Controller power: BEC ESC
+    - [X] Controller to receivers: come with cc3d
+    - [X] Controller to ESCs: jumper cable
+    - [X] ESCs power: PDB/solder
+    - [X] ESCs to motors: 2mm bullet/solder
+    - [X] Props on motors: rubber come with prop
+    - [X] On board LEDs power: solder on PBD
+    - [X] ESC on frame: zip ties
+    - [ ] Motor on frame: yes??
 
 **** Connections on ground station
-    - [ ] Controller to battery
-    - [ ] Controller charger
-    - [ ] Quad batteries charger
-    - [ ] Comp to controller?
-    - [ ] Comp to controller flash
-    - [ ] Comp to RC controller
-    - [ ] ESC program?
+    - [X] Controller to battery: with with alkaline bat. holder
+    - [X] Controller charger: don't need
+    - [X] Quad batteries charger: wall -> fake iMAX B6 ->  parallel charger (XT60)
+    - [X] Comp to controller: USB
+    - [X] Comp to controller flash: same - USB
+    - [ ] Comp to RC controller: dont need, need to make
+    - [ ] ESC program: dont need, need to buy
 
 *** Draft built for BBquad
 | Part               | Weight(g) |
@@ -152,11 +154,12 @@ http://goods.ruten.com.tw/item/show?21449907628619
 PI: personal inventory
 *** Parts
    - [X] zipties
-   - [ ] heat shrink
-   - [ ] connectors
-   - [ ] wires
-   - [X] mo props
-   - [ ] loctite
+   - [ ] heat shrink: don't need, use electrical tape
+   - [X] connectors
+   - [X] servo wires
+   - [ ] power wires
+   - [X] lots! props
+   - [ ] loctite: dont need
    - [X] double sided tape
 *** Tools
    - [ ] net?

@@ -1,9 +1,10 @@
 #-*- mode: org -*-
 
 * Goals
-  Have a flying barebone quad (BBquad)
-  Flying telepresence, Flying FVP (TEquad)
-** Dev Goals
+  flying BareBone quad (BBquad)
+  Flying TElepresence, Flying FVP (TEquad)
+  Auto: flip 180deg, camera track, hyperlapse
+** Process goals
 Fast iteration
 Cheap
 Small
@@ -92,8 +93,8 @@ Weight: <110g for 1000mAh, <150g for 1300mAh
 | Turnigy |     1300 | 3S | 25C |           | 440NT | ruten         |
 | Turnigy |     1250 | 3S | 30C |           | 390NT | ruten         |
 | Zippy   |     1000 | 3S | 25C |           | 300NT | ruten         |
-*** TODO Flight Controller
-**** DONE Main Processor
+*** DONE Flight Controller
+**** TODO Main Processor
 | Part   | Firmware      | Sensor             | Connection | Processor        | Comp     | Price |
 |--------+---------------+--------------------+------------+------------------+----------+-------|
 | CC3D   | OpenPilot GCS | MPU6000            | JST        | 32bit STM32 F103 | MiniUSB  |       |
@@ -109,14 +110,16 @@ Spektrum vs FrSky: https://drive.google.com/file/d/0BxMefwBHjNs6TW9TS0VSeWhDRUE/
 | Turnigy 9X              |          |  59.99 | 9Ch   | y     | Anurag's 1st |
 | Spektrum DX6i           |          | 129.99 | 6Ch   | y     | Anurag's 2nd |
 |                         |          |        |       |       |              |
-**** TODO Sensors
+**** Sensors
 *** DONE Charger stuff
 **** DONE Battery charger
 http://goods.ruten.com.tw/item/show?21404251338913
 http://goods.ruten.com.tw/item/show?21449907628619
 **** DONE Charger Power Supply
 **** DONE Charger distribution
-*** TODO Checkings
+*** TODO Others
+    - regulators: pololu
+*** DONE Checkings
 **** Connections in quad
     - [X] Battery to distribution board: XT60/solder
     - [X] Controller power: BEC ESC
@@ -150,7 +153,10 @@ http://goods.ruten.com.tw/item/show?21449907628619
 | PS3 Eye w/out wire |       100 |
 | Gimbal             |        72 |
 | Total              |           |
-** TODO Related parts/tools
+
+*** recommanded parts
+    - ZMR250 setup: beliheli esc, 5040 props, more rubber standoffs
+** Related parts/tools
 PI: personal inventory
 *** Parts
    - [X] zipties
@@ -167,6 +173,7 @@ PI: personal inventory
    - [X] Solder iron
    - [X] Solder
    - [X] Solder flux
+   - [ ] Solder sucker
    - [X] Hot glue gun/glue stick
    - [X] Jumper pin/cables, male/female
    - [X] Meter
@@ -177,6 +184,12 @@ PI: personal inventory
    - [ ] epoxy
 
 ** Selection for TEquad
+*** Camera:
+| Camera       |
+|--------------|
+| PS3 eye      |
+| 600 tvl sony |
+|              |
 ** Purchased
 *** Parts
 | Part Name             | Quantity | Cost per |  Total |  TWD | Status       | From                 |
@@ -192,6 +205,11 @@ PI: personal inventory
 
 
 *** Tools
-    
-
+* Control
+** Manual Naze32 FULL
+** Position hold
+- need GPS?
+- http://fpvlab.com/forums/showthread.php?35784-Naze32-altitude-hold-simulate-Naza-Attitude
+** Auto: "Mission Planner with Pixhawk/Ardupilot"
+- http://www.rcgroups.com/forums/showthread.php?t=2694133
 

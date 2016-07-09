@@ -40,8 +40,13 @@ motor, esc, battery, controller, battery charger
 ** TODO [web] first django page
 
 * <2016-07-06 Wed>
+* <2016-07-08 Fri>
+** DONE [quad] select quad controller
+** TODO [web] first django
 
-* Shelf
+
+* shelf
 ** 
+
 
 

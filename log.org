@@ -43,7 +43,18 @@ motor, esc, battery, controller, battery charger
 * <2016-07-08 Fri>
 ** DONE [quad] select quad controller
 ** TODO [web] first django
-
+* <2016-07-09 Sat>
+** DONE [workspace] Setup python IDE: elpy, jedi...
+autocomplete, virtualenv, 
+** DONE [workspace] get magit
+** DONE [python] lpthw
+* <2016-07-10 Sun>
+** DONE [workspace] setup zsh, theme, emacs color...
+bash, .zshrc
+** DONE [python] more setting up python IDE
+** DONE [quad] buy controller
+** TODO [python] lpthw
+** TODO [web] make progress on Django
 
 * shelf
 ** 

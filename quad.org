@@ -146,16 +146,16 @@ http://goods.ruten.com.tw/item/show?21449907628619
     - ZMR250 setup: beliheli esc, 5040 props, more rubber standoffs
 
 *** Draft built for BBquad
-| Part                | Weight(g) |
-|---------------------+-----------|
-| ZMR250              |       135 |
-| ZMR250 PDB          |           |
-| Multistar Motors x4 |        96 |
-| Prop x4             |           |
-| Afro Mini 20amp x4  |     45.12 |
-| Battery             |           |
-| Naze32 FULL         |           |
-| Total               |           |
+| Part                | Weight(g) | Measure(g) |
+|---------------------+-----------+------------|
+| ZMR250              |       135 |            |
+| ZMR250 PDB          |           |            |
+| Multistar Motors x4 |        96 |            |
+| Prop x4             |           |            |
+| Afro Mini 20amp x4  |     45.12 |            |
+| Battery             |           |            |
+| Naze32 FULL         |           |            |
+| Total               |           |            |
 ** TODO Related parts/tools
 PI: personal inventory
 *** Parts

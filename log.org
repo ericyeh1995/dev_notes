@@ -57,12 +57,18 @@ bash, .zshrc
 ** DONE [web] setup Django, virtualenv
 ** DONE [web] make progress on Django
 * <2016-07-11 Mon>
-** TODO [quad] update shopping list
+** [quad] hobbyking parts came
+** DONE [quad] update shopping list
+** DONE [workspace] make shelf, work on organization
+** TODO [web] more on Try Django
+** TODO [python] more on lpthw
 * <2016-07-12 Tue>
 * <2016-07-13 Wed>
+** [quad] Get everything ready to fly by this date
+* <2016-07-14 Thu>
 
 * shelf
-** 
+** Buy stuff on To Get list
 
 
 

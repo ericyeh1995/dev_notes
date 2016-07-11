@@ -8,41 +8,41 @@ M-w       copy text
 * <2016-06-28 Tue>
 ** DONE vps setup user
 ** DONE visit stomach doc
-** TODO Completing: Setup website ready for simple html
-** TODO WIP: select a motor and controller
-** TODO Completing: lpthw at least till ex15
+** TODO.old Completing: Setup website ready for simple html
+** TODO.old WIP: select a motor and controller
+** TODO.old Completing: lpthw at least till ex15
 * <2016-06-29 Wed>
 ** DONE Install LAMP
-** TODO Completing: Setup website ready for simple html
-** TODO WIP: select a motor and controller
-** TODO Completing: lpthw at least till ex15
+** TODO.old Completing: Setup website ready for simple html
+** TODO.old WIP: select a motor and controller
+** TODO.old Completing: lpthw at least till ex15
 ** DONE learn htg: http://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/
 * <2016-06-30 Thu>
 ** DONE run 5k
 * <2016-07-01 Fri>
 ** DONE Family dinner
-** TODO Completing: Setup website ready
-** TODO WIP: select a motor and controller
-** TODO Completing: lpthw at least till ex15
+** TODO.old Completing: Setup website ready
+** TODO.old WIP: select a motor and controller
+** TODO.old Completing: lpthw at least till ex15
 * <2016-07-02 Sat>
 ** DONE [quad] select pulsion
 motor, esc, battery, controller, battery charger
 ** DONE [quad] Brought Hudson drone for practice
-** TODO [web] first django page
+** TODO.old [web] first django page
 * <2016-07-03 Sun>
 ** DONE Hike with Jumper
 ** DONE [quad] Look into RC controller
 * <2016-07-04 Mon>
 ** DONE [quad] Look into RC controller
-** TODO [quad] Finalize frame
+** TODO.old [quad] Finalize frame
 * <2016-07-05 Tue>
-** TODO [quad] Purchase parts for BBquad
-** TODO [web] first django page
+** TODO.old [quad] Purchase parts for BBquad
+** TODO.old [web] first django page
 
 * <2016-07-06 Wed>
 * <2016-07-08 Fri>
 ** DONE [quad] select quad controller
-** TODO [web] first django
+** TODO.old [web] first django
 * <2016-07-09 Sat>
 ** DONE [workspace] Setup python IDE: elpy, jedi
 autocomplete, virtualenv, 
@@ -60,11 +60,12 @@ bash, .zshrc
 ** [quad] hobbyking parts came
 ** DONE [quad] update shopping list
 ** DONE [workspace] make shelf, work on organization
-** TODO [web] more on Try Django
-** TODO [python] more on lpthw
+** TODO.old [web] more on Try Django
+** TODO.old [python] more on lpthw
 * <2016-07-12 Tue>
 * <2016-07-13 Wed>
 ** [quad] Get everything ready to fly by this date
+** TODO.old 
 * <2016-07-14 Thu>
 
 * shelf

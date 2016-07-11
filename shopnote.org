@@ -6,7 +6,7 @@
    - order ID 05 shipping time (int. warehouse -> Taiwan): ~5days (+weekend)
 
 * Quad Parts
-In store: brought in store
+In Store: brought in store
 DHI: don't have it (most likely shipped)
 USD/TWD: total (not $ per)
 

@@ -55,7 +55,7 @@ bash, .zshrc
 ** DONE [quad] buy controller
 ** DONE [python] lpthw till ex17
 ** DONE [web] setup Django, virtualenv
-** TODO [web] make progress on Django
+** DONE [web] make progress on Django
 * <2016-07-11 Mon>
 ** TODO [quad] update shopping list
 * <2016-07-12 Tue>

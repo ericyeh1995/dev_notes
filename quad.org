@@ -94,7 +94,7 @@ Weight: <110g for 1000mAh, <150g for 1300mAh
 | Turnigy |     1250 | 3S | 30C |           | 390NT | ruten         |
 | Zippy   |     1000 | 3S | 25C |           | 300NT | ruten         |
 *** DONE Flight Controller
-**** TODO Main Processor
+**** DONE Main Processor
 | Part     | Firmware      | Sensor             | Connection | Processor        | Comp     | Price |
 |--------+---------------+--------------------+------------+------------------+----------+-------|
 | CC3D   | OpenPilot GCS | MPU6000            | JST        | 32bit STM32 F103 | MiniUSB  |       |
@@ -110,7 +110,7 @@ Spektrum vs FrSky: https://drive.google.com/file/d/0BxMefwBHjNs6TW9TS0VSeWhDRUE/
 | Turnigy 9X              |          |  59.99 | 9Ch   | y     | Anurag's 1st |
 | Spektrum DX6i           |          | 129.99 | 6Ch   | y     | Anurag's 2nd |
 |                         |          |        |       |       |              |
-**** Sensors
+**** DONE Sensors (no)
 *** DONE Charger stuff
 **** DONE Battery charger
 http://goods.ruten.com.tw/item/show?21404251338913
@@ -118,9 +118,11 @@ http://goods.ruten.com.tw/item/show?21449907628619
 **** DONE Charger Power Supply
 **** DONE Charger distribution
 *** TODO Others
-    - regulators: pololu
+**** TODO regulators: pololu
+**** TODO extra motor screws
+
 *** DONE Checkings
-**** Connections in quad
+**** DONE Connections in quad
     - [X] Battery to distribution board: XT60/solder
     - [X] Controller power: BEC ESC
     - [X] Controller to receivers: come with cc3d
@@ -132,7 +134,7 @@ http://goods.ruten.com.tw/item/show?21449907628619
     - [X] ESC on frame: zip ties
     - [ ] Motor on frame: yes??
 
-**** Connections on ground station
+**** DONE Connections on ground station
     - [X] Controller to battery: with with alkaline bat. holder
     - [X] Controller charger: don't need
     - [X] Quad batteries charger: wall -> fake iMAX B6 ->  parallel charger (XT60)
@@ -140,23 +142,21 @@ http://goods.ruten.com.tw/item/show?21449907628619
     - [X] Comp to controller flash: same - USB
     - [ ] Comp to RC controller: dont need, need to make
     - [ ] ESC program: dont need, need to buy
-
-*** Draft built for BBquad
-| Part               | Weight(g) |
-|--------------------+-----------|
-| Dart 250           |       135 |
-| Motors x4          |        96 |
-| Afro Mini 20amp x4 |     45.12 |
-| GPS                |           |
-| Battery            |           |
-| Controller         |           |
-| PS3 Eye w/out wire |       100 |
-| Gimbal             |        72 |
-| Total              |           |
-
 *** recommanded parts
     - ZMR250 setup: beliheli esc, 5040 props, more rubber standoffs
-** Related parts/tools
+
+*** Draft built for BBquad
+| Part                | Weight(g) |
+|---------------------+-----------|
+| ZMR250              |       135 |
+| ZMR250 PDB          |           |
+| Multistar Motors x4 |        96 |
+| Prop x4             |           |
+| Afro Mini 20amp x4  |     45.12 |
+| Battery             |           |
+| Naze32 FULL         |           |
+| Total               |           |
+** TODO Related parts/tools
 PI: personal inventory
 *** Parts
    - [X] zipties
@@ -167,7 +167,7 @@ PI: personal inventory
    - [X] lots! props
    - [ ] loctite: dont need
    - [X] double sided tape
-*** Tools
+*** TODO Tools
    - [ ] net?
    - [X] UART
    - [X] Solder iron
@@ -180,8 +180,10 @@ PI: personal inventory
    - [X] Scope (5v)
    - [X] Stripping tool
    - [X] electrical tapes
-   - [ ] hex tools
+   - [X] hex tools
    - [ ] epoxy
+   - [ ] ** tiny hex keys
+   - [X] ** tiny tray
 
 ** Selection for TEquad
 *** Camera:
@@ -190,21 +192,6 @@ PI: personal inventory
 | PS3 eye      |
 | 600 tvl sony |
 |              |
-** Purchased
-*** Parts
-| Part Name             | Quantity | Cost per |  Total |  TWD | Status       | From                 |
-|-----------------------+----------+----------+--------+------+--------------+----------------------|
-| PS3 Eye               |        2 |          | 24.197 |  780 | Arrived      | ruten: daniel731112  |
-| iMAX B6 80w charger   |        1 |   24.817 | 24.817 |  800 | Paid/Shipped | shoppee: a6880       |
-| Parallel charg. XT-60 |        1 |        0 |      0 |      |              | shoppee: a6880       |
-| 15V 90W AC Adapter    |        1 |        0 |      0 |      |              | shoppee: a6880       |
-| CC3D                  |        1 |    9.927 |  9.927 |  320 | Requested    | ruten: copy888       |
-| Hubsan X4 w/ 4 Bat    |        1 |          |        | 1560 | Shipped      | ruten: yichin5201314 |
-| Hubsan Prop           |   1 (x4) |          |        |   42 | Shipped      | ruten: ken0422       |
-|                       |          |          |        |      |              |                      |
-
-
-*** Tools
 * Control
 ** Manual Naze32 FULL
 ** Position hold

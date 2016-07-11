@@ -1,0 +1,41 @@
+
+
+
+* Quad Parts
+| ID | Part Name               |   Quan | Tot(USD) | Tot(TWD) | Status  | yymmdd | From            |
+|----+-------------------------+--------+----------+----------+---------+--------+-----------------|
+|    |                         |        |          |          |         |        | <15>            |
+| 01 | PS3 Eye                 |      2 |          |      780 | Arrived | 160612 | ruten: daniel731112 |
+| 02 | Hubsan X4 w/ 4 Bat      |      1 |          |     1560 | Arrived | 160702 | ruten: yichin5201314 |
+| 02 | Hubsan Prop             |   1set |          |       42 | Arrived | 160702 | ruten: ken0422  |
+| 03 | iMAX B6 80w charger     |      1 |          |      800 | Arrived | 160703 | shoppee: a6880  |
+| 03 | Parallel charg. XT-60   |      1 |          |        0 | Arrived | 160703 | shoppee: a6880  |
+| 03 | 15V 90W AC Adapter      |      1 |          |        0 | Arrived | 160703 | shoppee: a6880  |
+| 04 | PDB for ZMR250          |      1 |     7.99 |          | Shipped | 160705 | ebay: global.mart |
+| 04 | ZMR250 Frame            |      1 |    15.99 |          | Shipped | 160705 | ebay: global.mart |
+| 04 | ZMR250 Extra arm        |   4pcs |     7.39 |          | Shipped | 160705 | ebay: global.mart |
+| 04 | ebay order shipping     |        |     5.00 |          | Shipped | 160705 | ebay: global.mart |
+| 05 | Zippy 1000mAh 3S 25C    |      2 |     9.66 |          | Arrived | 160706 | hobbyking       |
+| 05 | Afro ESC 20Amp          |   5pcs |    49.25 |          | Arrived | 160706 | hobbyking       |
+| 05 | Multistar 2204kv motor  |   4pcs |    47.41 |          | Arrived | 160706 | hobbyking       |
+| 05 | Gemfan 5030 orange prop |  10prs |     7.28 |          | Arrived | 160706 | hobbyking       |
+| 05 | Gemfan 5030 black prop  |  10prs |     7.28 |          | Arrived | 160706 | hobbyking       |
+| 05 | Multistar Lipo bat bag  |      1 |     3.36 |          | Arrived | 160706 | hobbyking       |
+| 05 | Tape 10x5in 4mm         |      2 |     1.39 |          | Arrived | 160706 | hobbyking       |
+| 05 | Cable ties blk          | 100pcs |     2.33 |          | Arrived | 160706 | hobbyking       |
+| 05 | Cable ties orange       | 100pcs |     2.05 |          | Arrived | 160706 | hobbyking       |
+| 05 | Turnigy 9X w/ 8ch rec.  |      1 |    59.99 |          | Arrived | 160706 | hobbyking       |
+| 05 | XT60U connector         |   5prs |     4.09 |          | Arrived | 160706 | hobbyking       |
+| 05 | 2mm bullet              |  10prs |     2.11 |          | Arrived | 160706 | hobbyking       |
+| 06 | Hubsan orange prop      |   5set |          |      175 | Shipped | 160708 | shoppee: topdeals.tw |
+| 07 | Naze32 Rev6a FULL       |      1 |          |      695 | Shipped | 160710 | ruten: shinelly |
+
+
+| TO GET                 | Priority |
+|------------------------+----------|
+| Battery checker        | Mid      |
+| mini hex key for motor | High     |
+| Extra 1000mAh          | Mid      |
+| Pixhawk                | Low      |
+| GPS                    | Low      |
+* Tools

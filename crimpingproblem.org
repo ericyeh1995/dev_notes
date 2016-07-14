@@ -1,0 +1,29 @@
+
+* Spec:
+To minimize the work needed to trim, srtip, and crimp the wire.
+Also insert the wire into the approporate connector.
+
+Ideal specs:
+   - Most automated process
+   - Least energy used by human
+   - Least energy used by the machine
+   - Least time needed
+   - Simple in design
+   - Use Hiwin robot
+   - Make the most progress
+   - Simple to operate
+
+Demonstration types:
+   - real life demo
+   - animation
+   - sketch/CAD
+   - written in words
+
+
+Time frame:
+   - Due by end of Auguest
+
+* Research
+
+
+

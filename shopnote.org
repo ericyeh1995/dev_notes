@@ -40,9 +40,10 @@ USD/TWD: total (not $ per)
 | 06 | Hubsan orange prop      |   5set |        |  175 | DHI      | 160708 | shoppee: topdeals.tw |
 | 07 | Naze32 Rev6a FULL       |      1 |        |  695 | DHI      | 160710 | ruten: shinelly |
 | 08 | Sharp nose 斜嘴鉗       |      1 |        |  320 | In store | 160710 | Taichung        |
+| 09 | Pixhawk                 |      1 |        |      |          |  16712 | ruten:          |
 |----+-------------------------+--------+--------+------+----------+--------+-----------------|
 |    | Sum                     |        | 269.58 | 4752 |          |        |                 |
-#+TBLFM: @30$4=vsum(@2$4..@29$4)::@30$5=vsum(@2$5..@29$5)
+#+TBLFM: @31$4=vsum(@2$4..@29$4)::@31$5=vsum(@2$5..@29$5)
 
 
 | TO GET                 | Priority |
@@ -52,4 +53,7 @@ USD/TWD: total (not $ per)
 | Extra 1000mAh          | Mid      |
 | Pixhawk                | Low      |
 | GPS                    | Low      |
+| Masking Tape           | Low      |
+| USB connectors         | ??       |
+
 * Tools

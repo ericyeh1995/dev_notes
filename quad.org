@@ -95,7 +95,7 @@ Weight: <110g for 1000mAh, <150g for 1300mAh
 | Zippy   |     1000 | 3S | 25C |           | 300NT | ruten         |
 *** DONE Flight Controller
 **** DONE Main Processor
-| Part     | Firmware      | Sensor             | Connection | Processor        | Comp     | Price |
+| Part   | Firmware      | Sensor             | Connection | Processor        | Comp     | Price |
 |--------+---------------+--------------------+------------+------------------+----------+-------|
 | CC3D   | OpenPilot GCS | MPU6000            | JST        | 32bit STM32 F103 | MiniUSB  |       |
 | Naze32 | Baseflight    | MPU6050 (acc/gyro) | lead pins  | 32bit STM32 F103 | MacroUSB |       |
@@ -192,6 +192,10 @@ PI: personal inventory
 | PS3 eye      |
 | 600 tvl sony |
 |              |
+*** DONE Controller
+pixhawk
+*** TODO Telemetry
+*** TODO ground display
 * Control
 ** Manual Naze32 FULL
 ** Position hold

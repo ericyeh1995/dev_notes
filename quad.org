@@ -62,6 +62,14 @@ Spec:
 | Mini FPV   |   | Blackout Mini H V2   |   150 | Carbon Fiber, 5" prop      | Durable    | 123g   |        |
 |            |   | DJI F330             |       | Anurag use it              |            |        |        |
 
+Comments:
+komodo from ruten:
+   - too short, but will bit pixhawk with long spacer
+
+ZMR250:
+   - doesn't have space to fit a pixhwak
+
+
 *** DONE Propulsion: Motor, ESC, Prop, Bat
 https://www.youtube.com/watch?v=9JiiZs-wdo4
 **** DONE ESC

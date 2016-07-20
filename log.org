@@ -70,8 +70,30 @@ n** DONE [quad] buy controller
 ** TODO [python] more on lpthw
 * <2016-07-13 Wed>
 ** [quad] Get everything ready to fly by this date
-** 
 * <2016-07-14 Thu>
+* <2016-07-15 Fri>
+* <2016-07-16 Sat>
+** [python] lpthw till ex25
+** [gaming] play undertale and gw2
+* <2016-07-17 Sun>
+** Hike with Jumper
+** [quad] Frame arrived
+** TODO [quad] Begin assemably
+need better solder iron
+** [web] try django 19 till 12
+* <2016-07-18 Mon>
+** [web] try django 19 till 14
+** [python] lpthw till ex30
+* <2016-07-19 Tue>
+** Headache...
+* <2016-07-20 Wed>
+** [quad] ZMR250 come
+** [quad] brought tools
+** run
+** [quad] make the motor turn!
+** [] do pyhton or web stuff
+
+
 
 * shelf
 ** Buy stuff on To Get list

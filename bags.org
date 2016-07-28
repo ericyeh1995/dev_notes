@@ -1,0 +1,81 @@
+
+
+* 000 Passport
+  - passport
+  - plane tickets
+  - currencies from different countries
+  - Taiwan taxi number
+  - SIM card
+
+* 001 Peak Messenger Bag
+  - camera
+  - camera batteries 
+  - lens
+  - peak camera clip
+  ? flash light
+
+* 100 Flying/Camping/Hiking/Libraring body care bag
+  - toothbrush/toothpaste
+  - tooth pick
+  - nail cutter
+  - clipper
+  - ear pick
+  - band-aid
+  - lucas papaw
+  - tissue
+  - oil clear sheet
+  - headpone adapter
+  - towelette
+  - lotion
+  - sun screen
+  - hand sanitizer
+  - lip balm
+  - plastic bags
+  - artifical skin
+  - mask
+  - sleep mask
+  - face mask
+  - ear plug
+  - hand sanitizer
+  - paper soap
+
+* TODO 101 Allergies/Health Emergency Bag
+  - dry bag
+  - Usana Healthpak
+  - Usana Proflavanol C
+  - Fish Oil
+  - B2 B6 for canker sore
+  - canker sore paste
+  - nose washer
+  - nose paste
+  - cotton stick
+  - ???
+  - asdf
+  - 
+
+* 200 Camera Supply Bag
+  - camera charger
+  - flash
+  - flash charger
+  - flash cap
+  - wireless flash trigger
+  - wireless flash trigger battery
+  - lens attachment
+  - lens cap, body cap
+  - shutter release
+  - mop
+  - peak camera shell
+  - peak/tripod accessories & bag
+  - Sirui tiny tripod & bag
+  - circular filter case 46mm & 37mm
+  - cleaning stuff
+  - screen protector
+  - Peak messenger bag divider
+
+* 201 Camera Cleaning Bag
+  - blow
+  - ND filter & adapter
+  - Circular filter
+  - mop
+  - brush
+

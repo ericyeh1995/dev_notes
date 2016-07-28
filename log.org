@@ -93,6 +93,28 @@ need better solder iron
 ** [quad] make the motor turn!
 ** [] do pyhton or web stuff
 
+* <2016-07-24 Sun>
+
+* <2016-07-25 Mon>
+** DONE bank stuff
+** TODO [quad] setting up quad
+** [python] work on lpthw
+
+* <2016-07-26 Tue>
+** TODO [quad] setup quad on qgroundcontrol
+** buy bags for packing
+** [python] work on lpthw
+** tea delivery to Hiwin
+** dinner with Hiwin ex-co-workers
+* <2016-07-27 Wed>
+** shop and setup packing stuff
+** play with niece
+** DONE run 6k
+** DONE [pyhton] lpthw finish till ex43
+* <2016-07-28 Thu>
+** more banking stuff
+** [python] work on lpthw
+** 
 
 
 * shelf

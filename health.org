@@ -1,0 +1,56 @@
+#-*- mode: org -*-
+
+* Hiking
+** Trails
+loc: location
+time: estimated round trip time in hrs
+dist: distance in km
+peak: peak height in m
+eg: elevation gain in m
+mtime: my best time
+
+| loc          | name          |  time |  dist | peak |   eg | mtime |
+|--------------+---------------+-------+-------+------+------+-------|
+| Taichung, TW | Dakeng #3     |       |       |      |      | ?     |
+| Nantou, TW   | 1*            |       |  1.95 |      |      | ?     |
+| Nantou, TW   | 2*            |       |  5.70 | 1780 |      | ?     |
+| TW           | Jade Mountain | 10-12 |       | 3952 | 1700 | x     |
+| Yosemite, CA | Half dome     | 10-14 | 24-26 | 2694 | 1460 | ?     |
+| CA           | Mt. Whitney   | 14-18 | 32-35 | 4421 | 1860 |       |
+| CA           | Mission Peak  |     2 |    10 |  765 | 648  |       |
+
+1* 賞鳥步道 to observatory (not round trip)
+2* 鳳凰林道 to observatory (not round trip)
+
+** Packing list
+For hiking:
+   1. Water: 200ml/km
+   2. Towel
+   3. Money
+   4. Cell phone, bat
+   5. Sunscreen
+   6. Bugs stuff
+   7. Wound stuff
+   8. Camera
+   9. Hat
+   10. Umbrella
+   11. Water filter
+   12. Food
+   13. Bag (peak design: 1.6kg)
+   14. Tissue paper
+   15. Plastic bags
+
+* log
+SS: Suffer Score
+PIR: Points in the Red
+BaseHR: max heart rate 
+Wei: Weight (kg)
+Cwei: Carried weight (kg)
+
+| Date             | Dist. |  Pace |    Time | Elev. | Calories | AvgHR |  SS | PIR | BaseHR | Wei | Cwei | Title                   |
+|------------------+-------+-------+---------+-------+----------+-------+-----+-----+--------+-----+------+-------------------------|
+| <2016-07-03 Sun> |   5.1 | 24:53 | 2:07:51 |   397 |      558 |   137 |  66 |   9 |    190 | ?   | ~5   | Dakeng 3,5,2 w/ Jumper  |
+| <2016-06-30 Thu> |   5.7 |  6:48 | 0:39:17 |    68 |      486 |   160 |  93 |  55 |    190 | ?   | 0    | Night run               |
+| <2016-06-25 Sat> |   8.0 | 18:43 | 2:29:52 |   434 |      846 |   145 | 148 |  60 |    190 | ?   | ~5   | Dakeng 10,6,9 w/ Jumper |
+| <2016-06-23 Thu> |   5.5 |  6:57 | 0:38:29 |    63 |      468 |   148 |  56 |   9 |    190 | ?   | 0    | Wen-Hsin park run       |
+|                  |       |       |         |       |          |       |     |     |        |     |      |                         |
